@@ -5,11 +5,31 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>B12A02 Flower market</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/x-icon" href="/assets/logo.png">
 </head>
 
 <body>
 
-  <header>
+  <header class="py-5 px-4 ">
+    <nav class="md:max-w-[1140px] ml-auto mr-auto flex justify-between items-center ">
+      <div class="logo w-[64px] sm:w-[135px]">
+        <img src="./assets/logo.png" alt="" class="">
+      </div>
+      <ul type="none" class="flex gap-x-12">
+        <li class="hidden  md:block"><a href="#" class="sm:text-[#252432]! sm:font-extrabold!">Home</a>
+        </li>
+        <li class="hidden md:block"><a href="#">Shop</a></li>
+        <li class="hidden md:block"><a href="#">About us</a></li>
+        <li class="">
+          <div class="cart flex gap-x-3">
+            <img src="./assets/shopping-cart.svg" alt="">
+            <p>Cart ($56)</p>
+          </div>
+        </li>
+      </ul>
+    </nav>
 
 
   </header>
