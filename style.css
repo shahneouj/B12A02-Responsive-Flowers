@@ -10,8 +10,18 @@
   --general-text: #00000061;
 }
 
+body {
+  background-color: #f5f8ff;
+}
+
+section {
+  max-width: 1150px;
+  margin: 0px auto;
+}
+
 p {
   font-family: "Inter";
+  color: var(--general-text);
 }
 
 a {
@@ -19,6 +29,10 @@ a {
   color: var(--general-text);
   font-weight: 500;
   font-family: "Inter";
+}
+
+span {
+  color: var(--primary) !important;
 }
 
 /* font family class */
