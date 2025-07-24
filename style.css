@@ -25,7 +25,8 @@ p {
   line-height: 17px;
 }
 
-a {
+a,
+li {
   font-size: 16px;
   color: var(--general-text);
   font-weight: 500;
@@ -37,6 +38,20 @@ span {
 }
 
 /* utility class */
+.slow {
+  animation-duration: 4s !important;
+}
+
+
+/* @keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+} */
 
 .btn {
   padding: 12px 20px;
