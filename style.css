@@ -38,6 +38,11 @@ span {
 }
 
 /* utility class */
+.full-width {
+  max-width: 100vw !important;
+  margin: 0px;
+}
+
 .slow {
   animation-duration: 4s !important;
 }
@@ -84,6 +89,9 @@ span {
     line-height: 27px;
   }
 
+  .btn {
+    padding: 12px 50px;
+  }
 }
 
 /* Responsive design end */
